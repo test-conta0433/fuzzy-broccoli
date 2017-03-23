@@ -12,5 +12,11 @@ if(function_exists($command)){
 }
 
 function ajuda(){
-  echo "ajuda";
+  echo <<<EOT
+  Comandos:
+  -soma a b
+  -subt a b
+  -mult a b
+  -divd a b
+EOT;
 }
