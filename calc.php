@@ -1,5 +1,6 @@
 <?php
 include 'soma.php';
+include 'mult.php';
 
 $command = substr($argv[1],1);
 
@@ -16,6 +17,6 @@ function ajuda(){
   -soma a b
   -subt a b
   -mult a b
-  -divd a b 
+  -divd a b
 EOT;
 }
