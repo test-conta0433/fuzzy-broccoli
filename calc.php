@@ -10,3 +10,7 @@ if(function_exists($command)){
 }else{
   echo "Comando '$command' inexistente";
 }
+
+function ajuda(){
+  echo "ajuda";
+}
