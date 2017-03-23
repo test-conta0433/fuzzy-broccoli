@@ -9,3 +9,13 @@ if(function_exists($command)){
 }else{
   echo "Comando '$command' inexistente";
 }
+
+function ajuda(){
+  echo <<<EOT
+  Comandos:
+  -soma a b
+  -subt a b
+  -mult a b
+  -divd a b 
+EOT;
+}
