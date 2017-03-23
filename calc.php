@@ -1,4 +1,5 @@
 <?php
+include 'soma.php';
 
 $command = substr($argv[1],1);
 
